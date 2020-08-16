@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//Second Updated
+//Cedrics Edits
 
 public class commandLineCalculator {
 
