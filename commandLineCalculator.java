@@ -31,7 +31,8 @@ public class commandLineCalculator {
 			menu_Option = input.next().charAt(0);
 			
 			System.out.print("\n");
-			
+			System.out.println(menu_Option);
+			System.out.println(menu_Option == 'a');
 			//Error Checking for input
 			if((menu_Option != 'a' || menu_Option !='A') && (menu_Option !='s' || menu_Option != 'S') && 
 					(menu_Option !='m' || menu_Option != 'M') && (menu_Option !='d' || menu_Option != 'D')) {
