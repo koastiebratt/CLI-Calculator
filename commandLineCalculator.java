@@ -1,8 +1,5 @@
 import java.util.Scanner;
 
-//Cedrics Edits
-//Test
-
 public class commandLineCalculator {
 
 	public static void main(String[] args) {
