@@ -1,8 +1,8 @@
 Lolu responsibility:
 
--Please update menu to display new char based options
 -Please update Error checking of input to make sure its characters that we want
 -Please Format division output for 2 decimals palces.
+-Fix menu option bug /Switch around If(Char==) statments
 
 Cedric Responsiblity:
 
