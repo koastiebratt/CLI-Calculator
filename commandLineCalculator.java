@@ -99,8 +99,11 @@ public class commandLineCalculator {
 							division_Results = new_value_1 / new_value_2;
 							
 							System.out.print("\n");
+
+							System.out.printf("Result: " + division_Results);
 							System.out.println("Result: " + division_Results);
 							System.out.println();
+
 							
 						}
 						
