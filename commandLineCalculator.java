@@ -33,11 +33,14 @@ public class commandLineCalculator {
 			
 			System.out.print("\n");
 			
+			
+			//Checks for valid input
 			 if(menu_Option != 'a' && menu_Option != 's' && menu_Option != 'm' && menu_Option != 'd' &&  menu_Option != 'e'){
 				
 				System.out.print("That is an invalid response. Please try again. Thank you \n\n");
-				
-			}else if( menu_Option == 'e') {
+
+			//Exit case
+			}else if(menu_Option == 'e') {
 				
 				System.out.println("\n\n****Goodbye*****");
 				
@@ -45,6 +48,7 @@ public class commandLineCalculator {
 				
 				Continue = 'n';
 				
+			//True test cases
 			}else{
 				
 				//Only runs if menu_option = 1,2,3 or 4
@@ -86,6 +90,7 @@ public class commandLineCalculator {
 						float new_value_1;
 						float new_value_2;
 						
+						//Converts for Decimals
 						new_value_1 = (float) stored_value_1;
 						new_value_2 = (float) stored_value_2;
 						
@@ -99,16 +104,17 @@ public class commandLineCalculator {
 							division_Results = new_value_1 / new_value_2;
 							
 							System.out.print("\n");
-
-							System.out.printf("Result: " + division_Results);
-							System.out.println("Result: " + division_Results);
-							System.out.println();
-
 							
+							//Formated two decimal points
+							System.out.print("Result: ");
+							System.out.printf("%.2f", division_Results);
+							System.out.println();
+							System.out.println();
 						}
 						
 						break;
-
+						
+					//Shouldn't be possible, true error
 					default:
 						
 						System.out.print("\n");
@@ -118,7 +124,6 @@ public class commandLineCalculator {
 			}
 			
 		}while(Continue == 'y' || Continue == 'Y');
-		
 	}
 }
 
